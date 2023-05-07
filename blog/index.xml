@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mecios&#39;Blog</title>
-    <link>/</link>
+    <link>/blog/</link>
     <description>Recent content on Mecios&#39;Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 May 2023 10:20:50 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 May 2023 10:20:50 +0800</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何在linux上安装nodejs</title>
-      <link>/posts/linux-install-nodejs/</link>
+      <link>/blog/posts/linux-install-nodejs/</link>
       <pubDate>Sun, 07 May 2023 10:20:50 +0800</pubDate>
       
-      <guid>/posts/linux-install-nodejs/</guid>
+      <guid>/blog/posts/linux-install-nodejs/</guid>
       <description>简单记录一下如何在Linux中安装nodejs的过程</description>
     </item>
     
