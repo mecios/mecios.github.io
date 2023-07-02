@@ -1,0 +1,43 @@
+
+/* .highlight .code > pre {
+    font-family: jetbrains mono,system-ui !important;
+    font-size: .9em;
+    font-weight: 400
+} */
+
+.markdown-body code, .markdown-body pre,.highlight .code {
+    font-family: jetbrains mono !important;
+    /* font-size: .13em !important; */
+    font-weight: 400
+}
+/* ,system-ui */
+
+@font-face {
+    font-family: jetbrains mono;
+    src: url(../font/JetBrainsMono-Regular.woff2)format("woff2");
+    font-weight: 400;
+    font-display: swap
+}
+
+@font-face {
+    font-family: jetbrains mono;
+    src: url(../font/JetBrainsMono-Italic.woff2)format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap
+}
+
+@font-face {
+    font-family: jetbrains mono;
+    src: url(../font/JetBrainsMono-Bold.woff2)format("woff2");
+    font-weight: 700;
+    font-display: swap
+}
+
+@font-face {
+    font-family: jetbrains mono;
+    src: url(../font/JetBrainsMono-BoldItalic.woff2)format("woff2");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap
+}

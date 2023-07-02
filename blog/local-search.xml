@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>文章标题</title>
+    <link href="/blog/2023/07/01/text-java/"/>
+    <url>/blog/2023/07/01/text-java/</url>
+    
+    <content type="html"><![CDATA[<p>以下是文章内容</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs java"><span class="hljs-comment">/**</span><br><span class="hljs-comment"> * <span class="hljs-doctag">@author</span> John Smith &lt;john.smith@example.com&gt;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">package</span> l2f.gameserver.model;<br><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">strictfp</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">L2Char</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">L2Object</span> &#123;<br>  <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">final</span> <span class="hljs-type">Short</span> <span class="hljs-variable">ERROR</span> <span class="hljs-operator">=</span> <span class="hljs-number">0x0001</span>;<br><br>  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">moveTo</span><span class="hljs-params">(<span class="hljs-type">int</span> x, <span class="hljs-type">int</span> y, <span class="hljs-type">int</span> z)</span> &#123;<br>    _ai = <span class="hljs-literal">null</span>;<br>    log(<span class="hljs-string">&quot;Should not be called&quot;</span>);<br>    <span class="hljs-keyword">if</span> (<span class="hljs-number">1</span> &gt; <span class="hljs-number">5</span>) &#123; <span class="hljs-comment">// wtf!?</span><br>      <span class="hljs-keyword">return</span>;<br>    &#125;<br>  &#125;<br>&#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+      <tag>Fluid</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/blog/2023/07/01/hello-world/"/>
     <url>/blog/2023/07/01/hello-world/</url>
